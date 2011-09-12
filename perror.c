@@ -1,13 +1,11 @@
-/* perror example */
 #include <stdio.h>
 
-int main ()
+int main(int argc, char * argv[])
 {
-      FILE * pFile;
-        pFile=fopen ("unexist.ent","rb");
-          if (pFile==NULL)
-                  perror ("The following error occurred");
-                    else
-                            fclose (pFile);
-                              return 0;
+	int i = 0;
+	if(5/0)
+		perror(argv[0]);
+	//printf("success\n");
+
+    return 0;
 }

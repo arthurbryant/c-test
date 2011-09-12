@@ -1,0 +1,4 @@
+void myfunction()
+{
+    printf("hi");
+}

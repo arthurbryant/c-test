@@ -1,0 +1,96 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+BUFSIZE	bufwrite.c	4;"	d	file:
+BUFSIZE	column.c	8;"	d	file:
+BUFSIZE	memcpy.c	4;"	d	file:
+EOF	sqrt.c	1;"	d	file:
+ISUN	isunsigned.c	4;"	d	file:
+ISUNSIGNED	isunsigned.c	3;"	d	file:
+MAX	linklist.c	4;"	d	file:
+NCOLUMN	column.c	7;"	d	file:
+NROW	column.c	6;"	d	file:
+PRINTLINE	column.c	3;"	d	file:
+PRINTPAGE	column.c	4;"	d	file:
+a	union.c	/^	char a[14];$/;"	m	union:__anon2	file:
+atol	atol.c	/^long atol(char *str)$/;"	f
+buf	bufwrite.c	/^static char buf[BUFSIZE];$/;"	v	file:
+buf	column.c	/^static char buf[BUFSIZE];$/;"	v	file:
+buf	jmp.c	/^jmp_buf buf; $/;"	v
+buf	memcpy.c	/^static char buf[BUFSIZE];$/;"	v	file:
+buf	s.c	/^jmp_buf buf;$/;"	v
+buf	signal.c	/^jmp_buf buf;$/;"	v
+bufptr	bufwrite.c	/^static char *bufptr = buf;$/;"	v	file:
+bufptr	column.c	/^static char *bufptr = buf;$/;"	v	file:
+bufptr	memcpy.c	/^static char *bufptr = buf;$/;"	v	file:
+bufwrite	bufwrite.c	/^void bufwrite(char *p, int n)$/;"	f
+bufwrite	memcpy.c	/^void bufwrite(char *p, int n)$/;"	f
+build_list	linklist.c	/^struct node *build_list()$/;"	f
+d	type.c	/^	double d;$/;"	m	union:__anon1	file:
+data	linklist.c	/^	int data;$/;"	m	struct:node	file:
+display	linklist.c	/^void display(struct node *root)$/;"	f
+f	type.c	/^	float f;$/;"	m	union:__anon1	file:
+flag	linklist.c	/^	int flag;$/;"	m	struct:node	file:
+flushbuf	bufwrite.c	/^static void flushbuf()$/;"	f	file:
+flushbuf	column.c	/^void flushbuf()$/;"	f
+flushbuf	memcpy.c	/^static void flushbuf()$/;"	f	file:
+fun	pointer.c	/^void fun(int a[])$/;"	f
+g	pointer.c	/^void g(int *a)$/;"	f
+i	union.c	/^	int i;$/;"	m	union:__anon2	file:
+init	linklist.c	/^struct node *init(int i)$/;"	f
+init	s.c	/^void init()$/;"	f
+init	signal.c	/^void init()$/;"	f
+kbhit	ioctl.c	/^int kbhit()$/;"	f
+main	a.c	/^int main()$/;"	f
+main	all.c	/^main (int argc, char *argv[])$/;"	f
+main	array.c	/^int main()$/;"	f
+main	atol.c	/^int main()$/;"	f
+main	b.c	/^int main()$/;"	f
+main	binarySearch.c	/^int main()$/;"	f
+main	bufwrite.c	/^int main()$/;"	f
+main	char.c	/^int main()$/;"	f
+main	column.c	/^int main()$/;"	f
+main	extern.c	/^int main()$/;"	f
+main	file.c	/^int main()$/;"	f
+main	interrupt.c	/^int main()$/;"	f
+main	ioctl.c	/^int main()$/;"	f
+main	isunsigned.c	/^int main(int argc, char * argv[])$/;"	f
+main	jmp.c	/^int main()$/;"	f
+main	linklist.c	/^int main()$/;"	f
+main	main.c	/^int main()$/;"	f
+main	max.c	/^int main()$/;"	f
+main	memcpy.c	/^int main()$/;"	f
+main	model.c	/^int main(int argc, char * argv[])$/;"	f
+main	perror.c	/^int main(int argc, char * argv[])$/;"	f
+main	pointer.c	/^int main()$/;"	f
+main	rand.c	/^main ()$/;"	f
+main	random.c	/^int main()$/;"	f
+main	s.c	/^int main()$/;"	f
+main	seg.c	/^int main()$/;"	f
+main	signal.c	/^int main()$/;"	f
+main	sqrt.c	/^int main()$/;"	f
+main	stty.c	/^int main()$/;"	f
+main	tmp.c	/^main ()$/;"	f
+main	type.c	/^int main()$/;"	f
+main	union.c	/^int main()$/;"	f
+memcp	memcpy.c	/^static void memcp(char *src, char *dest, int n)$/;"	f	file:
+myfunction	libmy.c	/^void myfunction()$/;"	f
+next	linklist.c	/^	struct node * next;$/;"	m	struct:node	typeref:struct:node::node	file:
+node	linklist.c	/^struct node$/;"	s	file:
+print	column.c	/^void print(int n)$/;"	f
+printAll	all.c	/^printAll (char *str)$/;"	f
+printnum	column.c	/^static void printnum(int n)$/;"	f	file:
+search	binarySearch.c	/^int * search(int array[], int length, int key)$/;"	f
+seg_and_bus_handler	seg.c	/^void seg_and_bus_handler(int s)$/;"	f
+signal_handler	interrupt.c	/^void signal_handler(int s)$/;"	f
+signal_handler	s.c	/^void signal_handler(int s)$/;"	f
+signal_handler	signal.c	/^void signal_handler()$/;"	f
+test	linklist.c	/^void test(struct node * root)$/;"	f
+test2	linklist.c	/^void test2(struct node *root)$/;"	f
+test3	linklist.c	/^void test3(struct node * root)$/;"	f
+test4	linklist.c	/^void test4(struct node * root)$/;"	f
+u	type.c	/^}u;$/;"	v	typeref:union:__anon1
+u	union.c	/^}u;$/;"	v	typeref:union:__anon2
