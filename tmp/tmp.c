@@ -1,0 +1,15 @@
+/* perror example */
+#include <stdio.h>
+
+int
+main ()
+{
+	FILE *pFile;
+
+	pFile = fopen ("unexist.ent", "w");
+	if (pFile == NULL)
+		perror ("The following error occurred");
+	else
+		fclose (pFile);
+	return 0;
+}
