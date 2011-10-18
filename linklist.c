@@ -37,6 +37,13 @@ struct node *build_list()
 
 	return root;
 }
+struct node* create_list(int arr[], int n);
+{
+    if(NULL == arr || n < 1)
+        return NULL;
+    for(in)
+
+}
 void display(struct node *root)
 {
 	struct node *r = root;
@@ -163,10 +170,10 @@ int main()
 	struct node * root;
    	root = build_list();
 	
-   	//display(root);
+   	display(root);
 	//test(root);
 	//test2(root);
-	test4(root);
+	//test4(root);
 
     return 0;
 }
