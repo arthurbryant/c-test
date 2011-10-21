@@ -37,13 +37,6 @@ struct node *build_list()
 
 	return root;
 }
-struct node* create_list(int arr[], int n);
-{
-    if(NULL == arr || n < 1)
-        return NULL;
-    for(in)
-
-}
 void display(struct node *root)
 {
 	struct node *r = root;
