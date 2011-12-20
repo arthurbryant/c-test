@@ -3,9 +3,12 @@
 
 int main()
 {
-    printf("hello");
-    sleep(1);
-    printf(" arthur\n");
+    int len, len2;
+    int i;
+    printf("arthur\n%n", &len);
+    printf("%d\n", len);
+    scanf("%d%n", &i, &len2);
+    printf("%d, %d\n", i, len2);
 
     return 0;
 }
