@@ -3,7 +3,7 @@
 
 int main(int argc, char * argv[])
 {
-    int num = 10;
+    int num = 3;
     long * arr;
     arr = (long*)calloc(num, sizeof(long));
     if(arr == NULL)
@@ -16,14 +16,18 @@ int main(int argc, char * argv[])
     {
 	printf("%ld\n", arr[i]);
     }
-    char *ptr;
-    ptr = (char*)calloc(num, sizeof(char *));
+    char **ptr;
+    ptr = (char**)calloc(num, sizeof(char *));
     for(i = 0; i < num; ++i)
     {
-	if(arr[i] != NULL)
+	if(ptr[i] != NULL)
 	{
 		printf("not null\n");
 	}
+    else
+    {
+        printf("null\n");
+    }
     }
 
     return 0;

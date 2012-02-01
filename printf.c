@@ -1,9 +1,12 @@
 #include <stdio.h>
 
-main(int argc, char * argv[])
+int main(int argc, char * argv[])
 {
     int i;
-    printf("test");
-    //printf("%d\n", i);   
-
+    i = printf("");
+    printf("%d\n", i);   
+    i = printf("abc\n");
+    printf("%d\n", i);   
+    i = printf(NULL);
+    return 0;
 }

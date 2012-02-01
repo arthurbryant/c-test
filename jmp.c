@@ -6,10 +6,10 @@ jmp_buf buf;
 int main()
 {
 	setjmp(buf);	
-	printf("init");
+	printf("init\n");
 
 	char ch;
-	while(ch = getchar())
+	while((ch = getchar()) != EOF)
 	{
 		if(ch == '@')
 			longjmp(buf, 1);
