@@ -2,10 +2,8 @@
 
 int main(int argc, char * argv[])
 {
-    char str[10];
-    scanf("%s", str);
-
-    printf("%s\n", str);
+    const volatile i = 10;
+    
 
     return 0;
 }

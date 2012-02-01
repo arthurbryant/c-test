@@ -163,10 +163,10 @@ int main()
 	struct node * root;
    	root = build_list();
 	
-   	//display(root);
+   	display(root);
 	//test(root);
 	//test2(root);
-	test4(root);
+	//test4(root);
 
     return 0;
 }

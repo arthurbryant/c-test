@@ -1,7 +1,15 @@
+#include "a.c"
 #include <stdio.h>
 
 int main()
 {
-	char ch = getchar();
-	printf("%c\n", ch);
+    char *p = "1234567890";
+    char *r;
+    int *q;
+    q = (int*)p;
+    ++q;
+    r = q;
+    printf("%s\n", r);
+
+    return 0;
 }

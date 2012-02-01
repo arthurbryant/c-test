@@ -1,0 +1,3 @@
+I like this gamename = stdin, fully buffered, buf size = 4096
+name = stdout, fully buffered, buf size = 4096
+name = stderr, unbuffered., buf size = 1

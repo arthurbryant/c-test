@@ -18,6 +18,7 @@ int main()
 	int i = 0;
 	for(i = 0; i < 128; ++i)
 		printf("%c", array[i]);
+    fclose(fp);
 
     return 0;
 }
