@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 I like this gamename = stdin, fully buffered, buf size = 4096
 name = stdout, fully buffered, buf size = 4096
 name = stderr, unbuffered., buf size = 1
+=======
+good work
+>>>>>>> 4d531df4a6ed88afe29863582ce11bf3037fbd1e
