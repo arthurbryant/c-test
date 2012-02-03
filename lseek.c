@@ -5,7 +5,7 @@ int main(int argc, char * argv[])
 {
     int fd;
     
-    if((fd = open("aa", O_RDWR | O_APPEND)) < 0)
+    if((fd = open("aa", O_RDWR)) < 0)
     {
 	printf("open error\n");
 	return -1;
@@ -18,7 +18,7 @@ int main(int argc, char * argv[])
     {
 	printf("write error\n");
     }
-    if(lseek(fd, 0, SEEK_SET) < 0)
+    if(lseek(fd, 0, SEEK_SET) == -1)
     {
 	printf("seek error\n");
     }
@@ -27,7 +27,7 @@ int main(int argc, char * argv[])
 	printf("read error\n");
     }
     printf("%s\n", buf2);
-    if(lseek(fd, 0, SEEK_SET) < 0)
+    if(lseek(fd, 1024, SEEK_SET) == -1)
     {
 	printf("seek error\n");
     }

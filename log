@@ -1,0 +1,4 @@
+before fork
+pid=1647, global=2, val=11
+before fork
+pid=1646, global=1, val=10

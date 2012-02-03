@@ -5,6 +5,7 @@ int main(int argc, char * argv[])
 {
     time_t t;
     t = time(NULL);
+    printf("%d\n", t);
     long int t1 = 0x7fffffff;
     long int duration = t1-t;
     int year = duration / (2400*24*365);
