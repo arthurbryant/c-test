@@ -1,4 +1,48 @@
-before fork
-pid=1647, global=2, val=11
-before fork
-pid=1646, global=1, val=10
+fullpath = /root/workspace/a
+regual files =      23
+dir files =       3
+block =       0
+char =       0
+fifos =       0
+symbolic links =       1
+socks =       0
+fullpath = /root/workspace/a
+regual files =      23
+dir files =       3
+block =       0
+char =       0
+fifos =       0
+symbolic links =       1
+socks =       0
+fullpath = /dev/
+regual files =      32
+dir files =      28
+block =      37
+char =     146
+fifos =       1
+symbolic links =      74
+socks =       2
+fullpath = /dev/
+regual files =      32
+dir files =      28
+block =      37
+char =     146
+fifos =       1
+symbolic links =      74
+socks =       2
+fullpath = /root/workspace/
+regual files =   13493
+dir files =    1582
+block =       0
+char =       0
+fifos =       0
+symbolic links =       1
+socks =       0
+fullpath = /root/workspace/
+regual files =   13493
+dir files =    1582
+block =       0
+char =       0
+fifos =       0
+symbolic links =       1
+socks =       0
