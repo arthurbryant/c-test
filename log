@@ -1,48 +1,34 @@
-fullpath = /root/workspace/a
-regual files =      23
-dir files =       3
-block =       0
-char =       0
-fifos =       0
-symbolic links =       1
-socks =       0
-fullpath = /root/workspace/a
-regual files =      23
-dir files =       3
-block =       0
-char =       0
-fifos =       0
-symbolic links =       1
-socks =       0
-fullpath = /dev/
-regual files =      32
-dir files =      28
-block =      37
-char =     146
-fifos =       1
-symbolic links =      74
-socks =       2
-fullpath = /dev/
-regual files =      32
-dir files =      28
-block =      37
-char =     146
-fifos =       1
-symbolic links =      74
-socks =       2
-fullpath = /root/workspace/
-regual files =   13493
-dir files =    1582
-block =       0
-char =       0
-fifos =       0
-symbolic links =       1
-socks =       0
-fullpath = /root/workspace/
-regual files =   13493
-dir files =    1582
-block =       0
-char =       0
-fifos =       0
-symbolic links =       1
-socks =       0
+arg[0]: r
+arg[1]: arg1
+arg[2]: arg2
+USER=test
+PATH=/home/test
+end of parent
+
+arg[0]: pth
+arg[1]: arg1
+HOSTNAME=gd02
+TERM=xterm
+SHELL=/bin/bash
+HISTSIZE=1000
+SSH_CLIENT=10.10.104.11 52878 22
+SSH_TTY=/dev/pts/7
+JRE_HOME=/usr/java/jdk1.6.0_13/jre
+USER=root
+LS_COLORS=no=00:fi=00:di=00;34:ln=00;36:pi=40;33:so=00;35:bd=40;33;01:cd=40;33;01:or=01;05;37;41:mi=01;05;37;41:ex=00;32:*.cmd=00;32:*.exe=00;32:*.com=00;32:*.btm=00;32:*.bat=00;32:*.sh=00;32:*.csh=00;32:*.tar=00;31:*.tgz=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.zip=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.bz=00;31:*.tz=00;31:*.rpm=00;31:*.cpio=00;31:*.jpg=00;35:*.gif=00;35:*.bmp=00;35:*.xbm=00;35:*.xpm=00;35:*.png=00;35:*.tif=00;35:
+MAIL=/var/spool/mail/root
+PATH=/usr/java/jdk1.6.0_13/bin:/usr/java/jdk1.6.0_13/jre/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin
+INPUTRC=/etc/inputrc
+PWD=/root/workspace/c-test
+JAVA_HOME=/usr/java/jdk1.6.0_13
+LANG=en_US.UTF-8
+SHLVL=1
+HOME=/root
+LOGNAME=root
+CVS_RSH=ssh
+CLASSPATH=.:/usr/java/jdk1.6.0_13/lib:/usr/java/jdk1.6.0_13/jre/lib
+SSH_CONNECTION=10.10.104.11 52878 10.10.104.2 22
+LESSOPEN=|/usr/bin/lesspipe.sh %s
+G_BROKEN_FILENAMES=1
+_=./a.out
+OLDPWD=/root

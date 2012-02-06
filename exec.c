@@ -11,7 +11,7 @@ int main()
         err_sys("fork error");
     else if(pid == 0)
     {
-        if(execle("/root/workspace/c-test/r", "r", "arg1", "arg2", (char *)0, env_list) < 0)
+        if(execle("/root/workspace/c-test/echoargv", "r", "arg1", "arg2", (char *)0, env_list) < 0)
             err_sys("execle error");
     }
     if(waitpid(pid, NULL, 0) < 0)
@@ -20,7 +20,7 @@ int main()
         err_sys("fork error");
     else if(pid == 0)
     {
-        if(execlp("pth", "pth", "arg1", (char *)0) < 0)
+        if(execlp("/root/workspace/c-test/echoargv", "pth", "arg1", (char *)0) < 0)
             err_sys("execlp error");
     }
 
