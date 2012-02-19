@@ -7,6 +7,7 @@ int main()
 {
     pid_t pid;
     char *env_list[] = {"USER=test", "PATH=/home/test", NULL};
+    /*
     if((pid = fork()) < 0)
         err_sys("fork error");
     else if(pid == 0)
@@ -16,15 +17,27 @@ int main()
     }
     if(waitpid(pid, NULL, 0) < 0)
         err_sys("waitpid error");
+        */
     if((pid = fork()) < 0)
         err_sys("fork error");
     else if(pid == 0)
     {
-        if(execlp("/root/workspace/c-test/echoargv", "pth", "arg1", (char *)0) < 0)
+        if(execlp("echoall", "pth", "arg1", (char *)0) < 0)
             err_sys("execlp error");
+        _exit(0);
     }
 
-    printf("end of parent\n");
 
+    /*
+    if((pid = fork()) < 0)
+        err_sys("fork error");
+    else if(pid == 0)
+    {
+        if(execl("/bin/echoall", "pth", "arg1", (char *)0) < 0)
+            err_sys("execlp error");
+        _exit(0);
+    }
+*/
+    printf("end of parent\n");
     return 0;
 }
